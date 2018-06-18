@@ -32,7 +32,7 @@ describe("PearsonUsers", () => {
   });
 
   it('Should have entries of user', () => {
-    expect(userComponent.find('.user_details').length).toEqual(1);
+    expect(userComponent.find('.user__details').length).toEqual(1);
   });
 
   it('Should have a delete user option ', () => {
@@ -40,7 +40,7 @@ describe("PearsonUsers", () => {
   });
 
   it('Should dispalay firstName and LastName of user ', () => {
-    expect(userComponent.find('.name').text()).toEqual('Eve Holt');
+    expect(userComponent.find('.user_name').text()).toEqual('Eve Holt');
   });
 
  it('Should have avatar of user ', () => {

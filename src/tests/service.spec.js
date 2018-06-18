@@ -15,6 +15,7 @@ test('getUserList should invoke success callback function if response is success
 
     return getUserList(successMock)
         .then(() => {
+            console.log(successMock.mock.calls[0]);
             expect(successMock.mock.calls.length).toBe(1);
             expect(successMock.mock.calls[0][0].id).toEqual(4);
             expect(successMock.mock.calls[0][0].first_name).toEqual('Eve');

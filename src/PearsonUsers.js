@@ -69,9 +69,7 @@ export class PearsonUsers extends Component {
     return (
       <div className="pearson-users">
         <h1 className='heading'>Pearson User Management</h1>
-        <div className= 'users__conatiner'>
-        <UserDetails users={users} updateUserList= {this.updateUserList} />
-        </div>
+         <UserDetails users={users} updateUserList= {this.updateUserList} />
       </div>
     );
   }
