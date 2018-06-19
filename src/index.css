@@ -3,3 +3,46 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+.heading {
+    font-size: 36px;
+    font-weight: normal;
+    color: #007FA3;
+}
+.round-image{
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+}
+.users-name{
+    font-size: 18px;
+    color:#E93939;
+    height: 112px;
+    width: 212px;
+    background-color: white;
+    text-align: center;
+    margin-right: 37px;
+}
+.base{
+    background-color: #D8D8D8;
+    height: 212px;
+}
+.name-align {
+    padding-top: 47px;
+    padding-bottom: 47px;
+    padding-left: 47px;
+    padding-right: 47px;
+}
+.image-align{
+    margin-bottom: -45px;
+    margin-left: 60px;
+}
+.delete-user {
+    font-size: 14px;
+    color: #007FA3;
+    margin-top: -25px;
+    padding-left: 10px;
+    cursor: pointer;
+}
+.link-style{
+    text-decoration:none !important;
+}
